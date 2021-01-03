@@ -7,3 +7,12 @@ while i < len(a):
     i += 1;
 
 print(a)
+
+
+ab = [2, 4, 6, 8]
+b = []
+for item in ab:
+
+    b.append(item * (-2))
+
+print(b)
