@@ -8,4 +8,14 @@ while i <= s - 1:
     y = l[i] + str(dl_key)
     val[y] = val.pop(l[i])
     i += 1
-print(val)
+#print(val)
+
+
+val_1 = {'test': 'test_value', 'europe': 'eur', 'dollar':'usd', 'ruble': 'rub'}
+keys = list(val_1)
+for item in keys:
+    b = item
+
+    val_1[b + str(len(b))] = val_1.pop(str(b))
+
+print(val_1)
