@@ -47,3 +47,40 @@ def pinLitr(int):
 def litrPin(int):
     result = int * 2.11
     return result
+
+print('Ноль в качестве варианта перевода'
+      '\nзавершит работу программы!!!')
+while True:
+    a = input('Варианты перевода:' '\n1) Дюймы в сантиметры'
+    '\n2) Сантиметры в дюймы''\n3) Мили в километры'
+    '\n4) Километры в мили' '\n5) Фунты в килограммы'
+    '\n6) Килограммы в фунты' '\n7) Унции в граммы' '\n8) Граммы в унции'
+    '\n9) Галлон в литры''\n10) Литры в галлоны' '\n11) Пинты в литры'
+    '\n12) Литры в пинты'
+    '\nВведите вариант перевода:')
+    if a == '0':
+        break
+    if a in '1':
+        print(inchCm(float(input())))
+    elif a in '2':
+        print(cmInch(float(input())))
+    elif a in '3':
+         print(milesKm(float(input())))
+    elif a in '4':
+        print(kmMiles(float(input())))
+    elif a in '5':
+        print(futKg(float(input())))
+    elif a in '6':
+        print(kgFut(float(input())))
+    elif a in '7':
+        print(unGr(float(input())))
+    elif a in '8':
+        print(grUn(float(input())))
+    elif a in '9':
+        print(galLitr(float(input())))
+    elif a in '10':
+        print(litrGal(float(input())))
+    elif a in '11':
+        print(pinLitr(float(input())))
+    elif a in '12':
+        print(litrPin(float(input())))
