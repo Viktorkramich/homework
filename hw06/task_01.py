@@ -1,50 +1,50 @@
-def inchCm(int):
+def inchCm(int: int) -> int:
     result = int * 2.54
     return result
 
 # print(inchCm(float(input())))
 
-def cmInch(int):
+def cmInch(int: int) -> int:
     result = int * 0.39
     return result
 
-def milesKm(int):
+def milesKm(int: int) -> int:
     result = int * 1.60
     return result
 
-def kmMiles(int):
+def kmMiles(int: int) -> int:
     result = int * 0.62
     return result
 
-def futKg(int):
+def futKg(int: int) -> int:
     result = int * 2.20
     return result
 
-def kgFut(int):
+def kgFut(int: int) -> int:
     result = int * 0.45
     return result
 
-def unGr(int):
+def unGr(int: int) -> int:
     result = int * 28
     return result
 
-def grUn(int):
+def grUn(int: int) -> int:
     result = int * 0.03
     return result
 
-def galLitr(int):
+def galLitr(int: int) -> int:
     result = int * 3.78
     return result
 
-def litrGal(int):
+def litrGal(int: int) -> int:
     result = int * 0.26
     return result
 
-def pinLitr(int):
+def pinLitr(int: int) -> int:
     result = int * 0.47
     return result
 
-def litrPin(int):
+def litrPin(int: int) -> int:
     result = int * 2.11
     return result
 
@@ -84,3 +84,39 @@ while True:
         print(pinLitr(float(input())))
     elif a in '12':
         print(litrPin(float(input())))
+
+if __name__ == '__main__':
+    inchCm()
+
+if __name__ == '__main__':
+    cmInch()
+
+if __name__ == '__main__':
+    milesKm()
+
+if __name__ == '__main__':
+    kmMiles()
+
+if __name__ == '__main__':
+    futKg()
+
+if __name__ == '__main__':
+    kgFut()
+
+if __name__ == '__main__':
+    unGr()
+
+if __name__ == '__main__':
+    grUn()
+
+if __name__ == '__main__':
+    galLitr()
+
+if __name__ == '__main__':
+    litrGal()
+
+if __name__ == '__main__':
+    pinLitr()
+
+if __name__ == '__main__':
+    litrPin()
